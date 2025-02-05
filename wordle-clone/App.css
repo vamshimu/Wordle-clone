@@ -1,0 +1,44 @@
+body {
+    @apply bg-gray-900 text-white flex justify-center items-center h-screen;
+  }
+  
+  .wordle-container {
+    @apply flex flex-col items-center;
+  }
+  
+  .grid {
+    @apply grid grid-rows-6 gap-2 mt-4;
+  }
+  
+  .row {
+    @apply grid grid-cols-5 gap-2;
+  }
+  
+  .cell {
+    @apply w-12 h-12 flex items-center justify-center border text-xl font-bold uppercase border-gray-500;
+  }
+  
+  .bg-green {
+    @apply bg-green-500 text-white;
+  }
+  
+  .bg-yellow {
+    @apply bg-yellow-500 text-white;
+  }
+  
+  .bg-gray {
+    @apply bg-gray-500 text-white;
+  }
+  
+  .input-container {
+    @apply mt-4 flex space-x-2;
+  }
+  
+  button {
+    @apply p-2 rounded bg-blue-500;
+  }
+  
+  button:disabled {
+    @apply bg-gray-500 cursor-not-allowed;
+  }
+  
